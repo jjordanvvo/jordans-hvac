@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jordan's Heating and Cooling | HVAC Services in Newport News & Hampton Roads, VA</title>
+  <meta name="description" content="Expert heating, cooling, and air quality services in Hampton Roads, Virginia. 24/7 emergency HVAC repair. Free estimates. Call (757) 751-8332.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jordan's Heating and Cooling | HVAC Services in Hampton Roads, VA">
+  <meta property="og:description" content="Expert heating, cooling, and air quality services in Hampton Roads, Virginia. 24/7 emergency HVAC repair. Free estimates. Call (757) 751-8332.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jordansheatingandcooling.com">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1635048424329-a9bfb146d7aa?w=1200&q=80">
+  <meta property="og:site_name" content="Jordan's Heating and Cooling">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HVACBusiness",
+    "name": "Jordan's Heating and Cooling",
+    "telephone": "(757) 751-8332",
+    "email": "jordanheatingcooling757@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "9 Hudson Circle",
+      "addressLocality": "Newport News",
+      "addressRegion": "VA",
+      "postalCode": "23605"
+    },
+    "areaServed": ["Newport News", "Hampton", "Williamsburg", "Yorktown", "Hampton Roads"],
+    "url": "https://jordansheatingandcooling.com",
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "18:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       EMERGENCY TOP BAR — fixed, always visible
+  ============================================================ -->
+  <div class="emergency-bar">
+    <div class="emergency-bar__inner">
+      <div class="emergency-bar__left">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="rgba(255,255,255,0.85)" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+        <span>24/7 Emergency HVAC Service Available</span>
+      </div>
+      <a href="tel:7577518332" class="emergency-bar__phone">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        (757) 751-8332
+      </a>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="header" id="header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home" class="nav__brand" aria-label="Jordan's Heating and Cooling — home">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
+        <span>Jordan's Heating and Cooling</span>
+      </a>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#home" class="nav__link">Home</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#reviews" class="nav__link">Reviews</a></li>
+        <li><a href="#faq" class="nav__link">FAQ</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <div class="nav__right">
+        <a href="#contact" class="btn btn--primary nav__cta">Get a Free Quote</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer" id="drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <div class="drawer__overlay" id="drawerOverlay"></div>
+    <div class="drawer__panel">
+      <button class="drawer__close" id="drawerClose" aria-label="Close menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <nav class="drawer__nav" aria-label="Mobile navigation">
+        <a href="#home" class="drawer__link">Home</a>
+        <a href="#services" class="drawer__link">Services</a>
+        <a href="#about" class="drawer__link">About</a>
+        <a href="#reviews" class="drawer__link">Reviews</a>
+        <a href="#faq" class="drawer__link">FAQ</a>
+        <a href="#contact" class="drawer__link">Contact</a>
+      </nav>
+      <a href="tel:7577518332" class="btn btn--primary drawer__call">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Call Now — (757) 751-8332
+      </a>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+    ============================================================ -->
+    <section id="home" class="hero">
+      <div class="hero__media">
+        <img
+          src="Image 1.png"
+          alt="Modern HVAC system — Jordan's Heating and Cooling, Newport News VA"
+          class="hero__img"
+          loading="eager"
+          fetchpriority="high"
+        >
+        <div class="hero__overlay" aria-hidden="true"></div>
+      </div>
+      <!-- Ambient orbs -->
+      <div class="hero__orb hero__orb--1" aria-hidden="true"></div>
+      <div class="hero__orb hero__orb--2" aria-hidden="true"></div>
+      <!-- Corner decorations -->
+      <div class="hero__corners" aria-hidden="true"></div>
+      <div class="container hero__content">
+        <div class="hero__text reveal-hero">
+          <div class="hero__badge" id="seasonBadge">— LICENSED HVAC EXPERTS IN HAMPTON ROADS</div>
+          <h1 class="hero__headline">Keeping Virginia<br>Comfortable<br>Since Day One</h1>
+          <p class="hero__sub">Expert heating, cooling, and air quality services for homes and businesses across Hampton Roads. Fast response, honest pricing, guaranteed satisfaction.</p>
+          <div class="hero__btns">
+            <a href="#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+            <a href="tel:7577518332" class="btn btn--outline-white btn--lg btn--pulse">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Call (757) 751-8332
+            </a>
+          </div>
+          <div class="hero__trust">
+            <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Licensed &amp; Insured</span>
+            <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>24/7 Emergency Service</span>
+            <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Free Estimates</span>
+          </div>
+          <div class="hero__rating">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <span class="hero__rating-text"><strong>4.9 Rating</strong> &bull; Based on 100+ Reviews</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES
+    ============================================================ -->
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <p class="section-label">OUR SERVICES</p>
+          <h2 class="section-title">Complete HVAC Solutions for<br class="hide-mobile">Your Home &amp; Business</h2>
+          <p class="section-sub">From emergency repairs to full system installations — we handle it all with expertise and care.</p>
+        </div>
+        <div class="services__grid">
+
+          <div class="svc-card reveal-scale">
+            <div class="svc-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
+            </div>
+            <h3>AC Repair &amp; Service</h3>
+            <p>Fast, reliable air conditioning repair to keep you cool when it matters most. We service all makes and models with same-day availability.</p>
+            <a href="#contact" class="svc-card__link">Get a Free Quote →</a>
+          </div>
+
+          <div class="svc-card reveal-scale">
+            <div class="svc-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+            </div>
+            <h3>Heating Installation</h3>
+            <p>Professional furnace and heating system installations sized and configured perfectly for your home. Energy-efficient solutions that save you money.</p>
+            <a href="#contact" class="svc-card__link">Get a Free Quote →</a>
+          </div>
+
+          <div class="svc-card reveal-scale">
+            <div class="svc-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+            </div>
+            <h3>Heat Pump Service</h3>
+            <p>Expert heat pump installation, repair, and maintenance for year-round comfort. The smart choice for Virginia's climate.</p>
+            <a href="#contact" class="svc-card__link">Get a Free Quote →</a>
+          </div>
+
+          <div class="svc-card reveal-scale">
+            <div class="svc-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h3>Emergency Repairs</h3>
+            <p>HVAC emergency? We're available 24/7 with fast response times across Hampton Roads. Your comfort can't wait — and neither do we.</p>
+            <a href="tel:7577518332" class="svc-card__link">Call Now — (757) 751-8332 →</a>
+          </div>
+
+          <div class="svc-card reveal-scale">
+            <div class="svc-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M9.59 4.59A2 2 0 1 1 11 8H2m10.59 11.41A2 2 0 1 0 14 16H2m15.73-8.27A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+            </div>
+            <h3>Duct Cleaning &amp; Repair</h3>
+            <p>Clean ducts mean cleaner air and lower energy bills. We inspect, clean, seal, and repair your ductwork for optimal performance.</p>
+            <a href="#contact" class="svc-card__link">Get a Free Quote →</a>
+          </div>
+
+          <div class="svc-card reveal-scale">
+            <div class="svc-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Indoor Air Quality</h3>
+            <p>Breathe easier with our air purification, humidity control, and ventilation solutions. Protect your family's health year-round.</p>
+            <a href="#contact" class="svc-card__link">Get a Free Quote →</a>
+          </div>
+
+          <div class="svc-card reveal-scale">
+            <div class="svc-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>HVAC Maintenance</h3>
+            <p>Preventive maintenance plans that extend your system's life and prevent costly breakdowns. Seasonal tune-ups for peak performance.</p>
+            <a href="#contact" class="svc-card__link">Get a Free Quote →</a>
+          </div>
+
+          <div class="svc-card reveal-scale">
+            <div class="svc-card__icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></svg>
+            </div>
+            <h3>Thermostat Services</h3>
+            <p>Smart thermostat installation and programming for maximum comfort and energy savings. Take control of your home's climate.</p>
+            <a href="#contact" class="svc-card__link">Get a Free Quote →</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHY CHOOSE US
+    ============================================================ -->
+    <section id="about" class="section why-us">
+      <div class="container">
+        <div class="why-us__grid">
+          <div class="why-us__img-wrap reveal-left">
+            <img
+              src="Image 2.png"
+              alt="Jordan's Heating and Cooling HVAC technician servicing a unit in Hampton Roads"
+              loading="lazy"
+            >
+          </div>
+          <div class="why-us__content reveal-right">
+            <p class="section-label">WHY CHOOSE US</p>
+            <h2 class="section-title">Why Hampton Roads<br>Chooses Jordan's</h2>
+            <div class="why-us__items">
+              <div class="why-us__item">
+                <div class="why-us__num">01</div>
+                <div>
+                  <h3>Fast Response Times</h3>
+                  <p>When your system goes down, every minute counts. We arrive quickly and come prepared to fix it on the first visit.</p>
+                </div>
+              </div>
+              <div class="why-us__item">
+                <div class="why-us__num">02</div>
+                <div>
+                  <h3>Upfront, Honest Pricing</h3>
+                  <p>No hidden fees, no surprise charges. We quote the job before we start and stick to it. Every time.</p>
+                </div>
+              </div>
+              <div class="why-us__item">
+                <div class="why-us__num">03</div>
+                <div>
+                  <h3>Licensed &amp; Experienced Technicians</h3>
+                  <p>Our technicians are fully licensed, background-checked, and continuously trained on the latest HVAC technology.</p>
+                </div>
+              </div>
+              <div class="why-us__item">
+                <div class="why-us__num">04</div>
+                <div>
+                  <h3>100% Satisfaction Guaranteed</h3>
+                  <p>We stand behind every job. If you're not completely satisfied, we'll make it right — that's our promise.</p>
+                </div>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn--primary">Get a Free Quote Today</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         STATS BAR
+    ============================================================ -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats__grid">
+          <div class="stat reveal-up">
+            <span class="stat__num" data-target="500" data-suffix="+">0</span>
+            <span class="stat__label">Homes Serviced</span>
+          </div>
+          <div class="stat reveal-up">
+            <span class="stat__num stat--static">24/7</span>
+            <span class="stat__label">Emergency Availability</span>
+          </div>
+          <div class="stat reveal-up">
+            <span class="stat__num stat--static">4.9★</span>
+            <span class="stat__label">Customer Rating</span>
+          </div>
+          <div class="stat reveal-up">
+            <span class="stat__num stat--static">100%</span>
+            <span class="stat__label">Satisfaction Guarantee</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         REVIEWS
+    ============================================================ -->
+    <section id="reviews" class="section reviews">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <p class="section-label">REVIEWS</p>
+          <h2 class="section-title">What Our Customers Say</h2>
+          <p class="section-sub">Don't just take our word for it — hear from real Hampton Roads homeowners.</p>
+        </div>
+        <div class="reviews__grid">
+
+          <article class="review-card reveal-left">
+            <span class="review-card__bigquote" aria-hidden="true">"</span>
+            <div class="review-card__stars" aria-label="5 star rating">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote>"I had a fantastic experience with Jordan's Heating and Cooling. Their technician was prompt, knowledgeable, and fixed my HVAC issue quickly. They treated my home like their own, and their exceptional service has made them our go-to choice for all our family's HVAC needs."</blockquote>
+            <hr>
+            <div class="review-card__author">
+              <div class="review-card__avatar">AC</div>
+              <div><strong>Andrea Cruz</strong><span>Newport News, VA</span></div>
+            </div>
+          </article>
+
+          <article class="review-card reveal-up">
+            <span class="review-card__bigquote" aria-hidden="true">"</span>
+            <div class="review-card__stars" aria-label="5 star rating">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote>"Our AC went out on the hottest day of the year. Called Jordan's and they had someone here within two hours. The technician was professional, explained everything clearly, and had us back to cool in no time. Fair pricing too. Highly recommend."</blockquote>
+            <hr>
+            <div class="review-card__author">
+              <div class="review-card__avatar">MJ</div>
+              <div><strong>Marcus Johnson</strong><span>Hampton, VA</span></div>
+            </div>
+          </article>
+
+          <article class="review-card reveal-right">
+            <span class="review-card__bigquote" aria-hidden="true">"</span>
+            <div class="review-card__stars" aria-label="5 star rating">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote>"We've used Jordan's for both our heating installation and regular maintenance for the past three years. Always on time, always professional, and they never try to upsell unnecessary services. Honest, reliable, and skilled — you can't ask for more."</blockquote>
+            <hr>
+            <div class="review-card__author">
+              <div class="review-card__avatar">PW</div>
+              <div><strong>Patricia Williams</strong><span>Williamsburg, VA</span></div>
+            </div>
+          </article>
+
+        </div>
+        <div class="reviews__footer reveal-up">
+          <div class="google-badge">
+            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+            <span>Powered by Google Reviews</span>
+          </div>
+          <a href="https://www.google.com/search?q=Jordan%27s+Heating+and+Cooling+Newport+News+VA" class="text-link" target="_blank" rel="noopener noreferrer">See All Reviews on Google →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVICE AREA
+    ============================================================ -->
+    <section id="service-area" class="section service-area">
+      <div class="container">
+        <div class="service-area__grid">
+          <div class="service-area__text reveal-up">
+            <p class="section-label">SERVICE AREA</p>
+            <h2 class="section-title">Proudly Serving<br>Hampton Roads &amp; Beyond</h2>
+            <p class="section-sub">We provide fast, reliable HVAC service throughout the region. Not sure if we cover your area? Give us a call.</p>
+            <ul class="cities-list">
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Newport News</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Hampton</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Williamsburg</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Yorktown</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Poquoson</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Gloucester</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Norfolk</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Virginia Beach</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Smithfield</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Suffolk</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">Check Your Area</a>
+          </div>
+          <div class="service-area__map reveal-up">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.5!2d-76.49!3d37.06!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDAzJzM2LjAiTiA3NsKwMjknMjQuMCJX!5e0!3m2!1sen!2sus"
+              width="100%"
+              height="400"
+              style="border:0;border-radius:12px;"
+              allowfullscreen=""
+              loading="lazy"
+              title="Jordan's Heating and Cooling — 9 Hudson Circle, Newport News, VA 23605"
+            ></iframe>
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=9+Hudson+Circle+Newport+News+VA+23605"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="directions-btn"
+            >Get Directions →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         FAQ
+    ============================================================ -->
+    <section id="faq" class="section faq">
+      <div class="container faq__wrap">
+        <div class="section-header reveal-up">
+          <p class="section-label">FAQ</p>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+        <div class="faq__list">
+
+          <div class="faq__item reveal-up">
+            <button class="faq__q" aria-expanded="false">
+              <span>What areas do you service?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <svg class="icon-plus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                <svg class="icon-minus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq__a"><div class="faq__a-inner"><p>We proudly serve Newport News, Hampton, Williamsburg, Yorktown, Poquoson, Gloucester, and the greater Hampton Roads area. If you're not sure if we cover your location, give us a call — we're happy to help.</p></div></div>
+          </div>
+
+          <div class="faq__item reveal-up">
+            <button class="faq__q" aria-expanded="false">
+              <span>Do you offer emergency HVAC service?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <svg class="icon-plus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                <svg class="icon-minus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq__a"><div class="faq__a-inner"><p>Yes! We offer 24/7 emergency repair service. If your heating or cooling system breaks down outside of normal hours, call us at <a href="tel:7577518332">(757) 751-8332</a> and we'll dispatch a technician as quickly as possible.</p></div></div>
+          </div>
+
+          <div class="faq__item reveal-up">
+            <button class="faq__q" aria-expanded="false">
+              <span>How much does an HVAC service call cost?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <svg class="icon-plus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                <svg class="icon-minus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq__a"><div class="faq__a-inner"><p>We offer free estimates on all installations and replacements. For repair service calls, pricing depends on the issue — but we always provide upfront pricing before any work begins. No surprise bills, ever.</p></div></div>
+          </div>
+
+          <div class="faq__item reveal-up">
+            <button class="faq__q" aria-expanded="false">
+              <span>How often should I have my HVAC system serviced?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <svg class="icon-plus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                <svg class="icon-minus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq__a"><div class="faq__a-inner"><p>We recommend a professional tune-up twice a year — once in the spring for your cooling system and once in the fall for your heating system. Regular maintenance extends your system's lifespan and helps prevent costly breakdowns.</p></div></div>
+          </div>
+
+          <div class="faq__item reveal-up">
+            <button class="faq__q" aria-expanded="false">
+              <span>Do you install smart thermostats?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <svg class="icon-plus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                <svg class="icon-minus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq__a"><div class="faq__a-inner"><p>Absolutely. We install and configure all major smart thermostat brands including Nest, Ecobee, and Honeywell. A smart thermostat can save you 10–15% on your energy bills while keeping your home more comfortable.</p></div></div>
+          </div>
+
+          <div class="faq__item reveal-up">
+            <button class="faq__q" aria-expanded="false">
+              <span>Are your technicians licensed and insured?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <svg class="icon-plus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                <svg class="icon-minus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq__a"><div class="faq__a-inner"><p>Yes. Every technician at Jordan's Heating and Cooling is fully licensed, insured, and background-checked. We invest in ongoing training to stay current with the latest HVAC technology and best practices.</p></div></div>
+          </div>
+
+          <div class="faq__item reveal-up">
+            <button class="faq__q" aria-expanded="false">
+              <span>What brands do you service?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <svg class="icon-plus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                <svg class="icon-minus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq__a"><div class="faq__a-inner"><p>We service all major HVAC brands including Carrier, Trane, Lennox, Goodman, Rheem, York, Bryant, and more. Whatever system you have, we can repair, maintain, or replace it.</p></div></div>
+          </div>
+
+          <div class="faq__item reveal-up">
+            <button class="faq__q" aria-expanded="false">
+              <span>How can I improve my home's air quality?</span>
+              <span class="faq__icon" aria-hidden="true">
+                <svg class="icon-plus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                <svg class="icon-minus" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              </span>
+            </button>
+            <div class="faq__a"><div class="faq__a-inner"><p>There are several ways to improve indoor air quality: regular duct cleaning, air purifier installation, proper humidity control, and ensuring your HVAC system's filters are changed regularly. We offer free indoor air quality assessments to identify the best solutions for your home.</p></div></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CTA BANNER
+    ============================================================ -->
+    <section class="cta-banner">
+      <div class="cta-banner__media">
+        <img
+          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80"
+          alt="Comfortable family relaxing at home with reliable HVAC system"
+          loading="lazy"
+        >
+        <div class="cta-banner__overlay" aria-hidden="true"></div>
+      </div>
+      <div class="container cta-banner__content reveal-up">
+        <h2>Don't Sweat It —<br>We've Got You Covered</h2>
+        <p>Whether it's a summer breakdown or a winter emergency, Jordan's Heating and Cooling is here for you. 24/7.</p>
+        <div class="cta-banner__btns">
+          <a href="#contact" class="btn btn--primary btn--lg">Get a Free Quote</a>
+          <a href="tel:7577518332" class="btn btn--outline-white btn--lg btn--pulse">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Call (757) 751-8332
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT
+    ============================================================ -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <p class="section-label">CONTACT US</p>
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-sub">Fill out the form for a free quote, or call us directly. We respond within 1 hour during business hours.</p>
+        </div>
+        <div class="contact__grid">
+
+          <!-- Form -->
+          <div class="contact__form-wrap reveal-left">
+            <form name="contact" method="POST" data-netlify="true" id="contactForm" novalidate>
+              <input type="hidden" name="form-name" value="contact">
+
+              <div class="form-group" id="fg-name">
+                <label for="name">Full Name <span class="req">*</span></label>
+                <input type="text" id="name" name="name" placeholder="John Smith" required autocomplete="name">
+                <span class="form-err" id="err-name"></span>
+              </div>
+
+              <div class="form-group" id="fg-phone">
+                <label for="phone">Phone Number <span class="req">*</span></label>
+                <input type="tel" id="phone" name="phone" placeholder="(757) 000-0000" required autocomplete="tel">
+                <span class="form-err" id="err-phone"></span>
+              </div>
+
+              <div class="form-group" id="fg-email">
+                <label for="email">Email Address <span class="req">*</span></label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
+                <span class="form-err" id="err-email"></span>
+              </div>
+
+              <div class="form-group" id="fg-service">
+                <label for="service">Service Needed <span class="req">*</span></label>
+                <div class="select-wrap">
+                  <select id="service" name="service" required>
+                    <option value="" disabled selected>Select a service…</option>
+                    <option value="ac-repair">AC Repair</option>
+                    <option value="heating-repair">Heating Repair</option>
+                    <option value="new-installation">New Installation</option>
+                    <option value="heat-pump">Heat Pump</option>
+                    <option value="duct-cleaning">Duct Cleaning</option>
+                    <option value="indoor-air-quality">Indoor Air Quality</option>
+                    <option value="maintenance-plan">Maintenance Plan</option>
+                    <option value="thermostat">Thermostat</option>
+                    <option value="emergency-service">Emergency Service</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <svg class="select-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+                <span class="form-err" id="err-service"></span>
+              </div>
+
+              <div class="form-group">
+                <label>Preferred Contact Method</label>
+                <div class="radio-group">
+                  <label class="radio-opt"><input type="radio" name="contact_method" value="call" checked><span class="radio-box"></span>Call Me</label>
+                  <label class="radio-opt"><input type="radio" name="contact_method" value="text"><span class="radio-box"></span>Text Me</label>
+                  <label class="radio-opt"><input type="radio" name="contact_method" value="email"><span class="radio-box"></span>Email Me</label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Describe Your Issue</label>
+                <textarea id="message" name="message" rows="4" placeholder="Tell us what's going on with your HVAC system…"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Send Message
+              </button>
+
+              <div class="form-success" id="formSuccess" hidden>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                <p>Thank you! We'll be in touch within 1 hour.</p>
+              </div>
+            </form>
+          </div>
+
+          <!-- Info -->
+          <div class="contact__info reveal-right">
+            <div class="contact__info-card">
+              <h3>Contact Information</h3>
+
+              <a href="tel:7577518332" class="cinfo-row cinfo-row--link">
+                <div class="cinfo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+                <div><span class="cinfo-label">Phone</span><span class="cinfo-val">(757) 751-8332</span></div>
+              </a>
+
+              <a href="mailto:jordanheatingcooling757@gmail.com" class="cinfo-row cinfo-row--link">
+                <div class="cinfo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+                <div><span class="cinfo-label">Email</span><span class="cinfo-val">jordanheatingcooling757@gmail.com</span></div>
+              </a>
+
+              <div class="cinfo-row">
+                <div class="cinfo-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <div><span class="cinfo-label">Address</span><a href="https://www.google.com/maps/dir/?api=1&destination=9+Hudson+Circle+Newport+News+VA+23605" target="_blank" rel="noopener noreferrer" class="cinfo-val cinfo-val--link">9 Hudson Circle<br>Newport News, VA 23605</a></div>
+              </div>
+
+              <div class="contact__hours">
+                <h4>
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  Business Hours
+                </h4>
+                <div class="hours-table">
+                  <div class="hours-row"><span>Monday – Friday</span><span>7:00 AM – 6:00 PM</span></div>
+                  <div class="hours-row"><span>Saturday</span><span>8:00 AM – 2:00 PM</span></div>
+                  <div class="hours-row hours-row--emerg"><span>Sunday</span><span>Emergency Calls Only</span></div>
+                </div>
+                <p class="hours-note">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                  24/7 emergency service always available — call anytime.
+                </p>
+              </div>
+
+              <div class="contact__social">
+                <h4>Follow Us</h4>
+                <div class="social-row">
+                  <a href="#" class="social-btn" aria-label="Facebook">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                  </a>
+                  <a href="#" class="social-btn" aria-label="Google">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer__trust">
+        <span class="ftrust-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Licensed &amp; Insured</span>
+        <span class="ftrust-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Background-Checked Technicians</span>
+        <span class="ftrust-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>Satisfaction Guaranteed</span>
+        <span class="ftrust-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>Locally Owned</span>
+      </div>
+
+      <div class="footer__grid">
+        <div class="footer__col footer__col--brand">
+          <div class="footer__logo">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
+            Jordan's Heating and Cooling
+          </div>
+          <p>Your Comfort is Our Priority. Licensed HVAC experts serving Hampton Roads, Virginia.</p>
+          <a href="tel:7577518332" class="footer__phone">(757) 751-8332</a>
+        </div>
+
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">AC Repair</a></li>
+            <li><a href="#services">Heating</a></li>
+            <li><a href="#services">Heat Pumps</a></li>
+            <li><a href="#services">Duct Cleaning</a></li>
+            <li><a href="#services">Air Quality</a></li>
+            <li><a href="#services">Maintenance</a></li>
+            <li><a href="#services">Thermostats</a></li>
+            <li><a href="tel:7577518332">Emergency Service</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#service-area">Service Area</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__contact">
+            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#64748B" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:7577518332">(757) 751-8332</a></li>
+            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#64748B" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:jordanheatingcooling757@gmail.com">jordanheatingcooling757@gmail.com</a></li>
+            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#64748B" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><a href="https://www.google.com/maps/dir/?api=1&destination=9+Hudson+Circle+Newport+News+VA+23605" target="_blank" rel="noopener noreferrer">9 Hudson Circle, Newport News, VA 23605</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 Jordan's Heating and Cooling. All rights reserved.</p>
+        <p class="footer__bottom-mid">Licensed &amp; Insured in the State of Virginia</p>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       FLOATING / FIXED ELEMENTS
+  ============================================================ -->
+
+  <!-- Mobile Sticky Call Bar (mobile only) -->
+  <div class="mobile-call-bar" aria-label="Call us now">
+    <a href="tel:7577518332" class="mobile-call-bar__link">
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Call Now — (757) 751-8332
+    </a>
+  </div>
+
+  <!-- Emergency Float Badge (desktop only) -->
+  <div class="emerg-float" id="emergFloat">
+    <button class="emerg-float__btn" id="emergTrigger" aria-expanded="false" aria-controls="emergPopup">
+      <span class="emerg-pulse" aria-hidden="true"></span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+      HVAC Emergency?
+    </button>
+    <div class="emerg-float__popup" id="emergPopup" hidden>
+      <button class="emerg-float__close" id="emergClose" aria-label="Close">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <p class="emerg-float__title">Need Emergency HVAC Help?</p>
+      <p class="emerg-float__text">We're available 24/7 across Hampton Roads. Call us now.</p>
+      <a href="tel:7577518332" class="btn btn--primary emerg-float__call">
+        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.62 3.38 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.6a16 16 0 0 0 6.29 6.29l.96-.96a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        (757) 751-8332
+      </a>
+    </div>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" hidden>
+    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
