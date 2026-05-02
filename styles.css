@@ -38,7 +38,7 @@
   /* Layout */
   --max-w:  1200px;
   --bar-h:  40px;
-  --nav-h:  68px;
+  --nav-h:  96px;
 
   /* Shadows / Glows */
   --glow-sm: 0 0 20px rgba(88,166,255,0.12);
@@ -1989,7 +1989,7 @@ a[href^="tel:"]:hover { text-shadow: 0 0 20px rgba(88,166,255,0.4); }
    LOGO IMAGES — navbar, drawer, footer
    ============================================================ */
 .nav__logo-img {
-  height: 50px;
+  height: 80px;
   width: auto;
   display: block;
 }
@@ -2005,13 +2005,13 @@ a[href^="tel:"]:hover { text-shadow: 0 0 20px rgba(88,166,255,0.4); }
   margin-bottom: 0;
 }
 .drawer__logo-img {
-  height: 40px;
+  height: 60px;
   width: auto;
   display: block;
 }
 
 .footer__logo-img {
-  height: 60px;
+  height: 90px;
   width: auto;
   display: block;
 }
