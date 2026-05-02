@@ -72,8 +72,7 @@
   <header class="header" id="header">
     <nav class="nav" aria-label="Main navigation">
       <a href="#home" class="nav__brand" aria-label="Jordan's Heating and Cooling — home">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
-        <span>Jordan's Heating and Cooling</span>
+        <img src="logo_final.png" alt="Jordan's Heating and Cooling" class="nav__logo-img">
       </a>
 
       <ul class="nav__links" id="navLinks">
@@ -100,9 +99,12 @@
   <div class="drawer" id="drawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Navigation menu">
     <div class="drawer__overlay" id="drawerOverlay"></div>
     <div class="drawer__panel">
-      <button class="drawer__close" id="drawerClose" aria-label="Close menu">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-      </button>
+      <div class="drawer__head">
+        <img src="logo_final.png" alt="Jordan's Heating and Cooling" class="drawer__logo-img">
+        <button class="drawer__close" id="drawerClose" aria-label="Close menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
       <nav class="drawer__nav" aria-label="Mobile navigation">
         <a href="#home" class="drawer__link">Home</a>
         <a href="#services" class="drawer__link">Services</a>
@@ -266,9 +268,10 @@
         <div class="why-us__grid">
           <div class="why-us__img-wrap reveal-left">
             <img
-              src="Image 2.png"
-              alt="Jordan's Heating and Cooling HVAC technician servicing a unit in Hampton Roads"
+              src="HVAC Owner.png"
+              alt="Jordan's Heating and Cooling owner servicing a Goodman AC unit in Hampton Roads"
               loading="lazy"
+              style="object-fit:cover;object-position:center;"
             >
           </div>
           <div class="why-us__content reveal-right">
@@ -409,6 +412,94 @@
         </div>
       </div>
     </section>
+
+    <!-- ============================================================
+         OUR WORK — photo carousel
+    ============================================================ -->
+    <section id="our-work" class="section our-work">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <p class="section-label">OUR WORK</p>
+          <h2 class="section-title">Quality You Can See</h2>
+          <p class="section-sub">Real jobs, real results — residential and commercial HVAC installs across Hampton Roads.</p>
+        </div>
+      </div>
+
+      <div class="work__wrap">
+
+        <button class="work__arrow work__arrow--prev" aria-label="Previous project">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+
+        <div class="work__track" id="workTrack">
+
+          <div class="work-card">
+            <div class="work-card__img">
+              <img src="IMG1.png" alt="Central AC condenser installation" loading="lazy">
+            </div>
+            <div class="work-card__body">
+              <h3 class="work-card__title">Central AC Installation</h3>
+              <p class="work-card__desc">Brand new high-efficiency central air condenser installed for a Newport News homeowner.</p>
+            </div>
+          </div>
+
+          <div class="work-card">
+            <div class="work-card__img">
+              <img src="IMG 2.png" alt="Ameristar horizontal air handler installation in attic space" loading="lazy">
+            </div>
+            <div class="work-card__body">
+              <h3 class="work-card__title">Ameristar Air Handler Install</h3>
+              <p class="work-card__desc">Horizontal Ameristar air handler installed in an attic space, fully connected with ductwork and condensate drainage.</p>
+            </div>
+          </div>
+
+          <div class="work-card">
+            <div class="work-card__img">
+              <img src="IMG3.png" alt="Goodman AC system replacement on concrete pad" loading="lazy">
+            </div>
+            <div class="work-card__body">
+              <h3 class="work-card__title">Goodman AC System Replacement</h3>
+              <p class="work-card__desc">New Goodman central air conditioning unit installed on a custom concrete pad — quiet and energy-efficient.</p>
+            </div>
+          </div>
+
+          <div class="work-card">
+            <div class="work-card__img">
+              <img src="IMG4.png" alt="Air handler installation in utility closet" loading="lazy">
+            </div>
+            <div class="work-card__body">
+              <h3 class="work-card__title">Air Handler Installation</h3>
+              <p class="work-card__desc">Indoor air handler unit fitted in a residential utility closet, wired and ready for peak performance.</p>
+            </div>
+          </div>
+
+          <div class="work-card">
+            <div class="work-card__img">
+              <img src="IMG5.png" alt="Daikin mini-split outdoor unit installation" loading="lazy">
+            </div>
+            <div class="work-card__body">
+              <h3 class="work-card__title">Daikin Mini-Split System</h3>
+              <p class="work-card__desc">Ductless Daikin mini-split outdoor unit — perfect for zone-controlled comfort without ductwork.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="work__arrow work__arrow--next" aria-label="Next project">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+      </div>
+
+      <div class="work__dots" id="workDots" role="tablist" aria-label="Project navigation">
+        <button class="work__dot is-active" role="tab" aria-selected="true"  aria-label="Project 1"></button>
+        <button class="work__dot"            role="tab" aria-selected="false" aria-label="Project 2"></button>
+        <button class="work__dot"            role="tab" aria-selected="false" aria-label="Project 3"></button>
+        <button class="work__dot"            role="tab" aria-selected="false" aria-label="Project 4"></button>
+        <button class="work__dot"            role="tab" aria-selected="false" aria-label="Project 5"></button>
+      </div>
+    </section>
+
 
     <!-- ============================================================
          SERVICE AREA
@@ -737,8 +828,7 @@
       <div class="footer__grid">
         <div class="footer__col footer__col--brand">
           <div class="footer__logo">
-            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
-            Jordan's Heating and Cooling
+            <img src="logo_final.png" alt="Jordan's Heating and Cooling" class="footer__logo-img">
           </div>
           <p>Your Comfort is Our Priority. Licensed HVAC experts serving Hampton Roads, Virginia.</p>
           <a href="tel:8048333762" class="footer__phone">(804) 833-3762</a>
@@ -828,6 +918,34 @@
   <button class="back-to-top" id="backToTop" aria-label="Back to top" hidden>
     <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
   </button>
+
+  <!-- ============================================================
+       WORK LIGHTBOX — fullscreen image viewer
+  ============================================================ -->
+  <div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="Project viewer" aria-hidden="true">
+    <div class="lb__overlay" id="lbOverlay"></div>
+
+    <button class="lb__close" id="lbClose" aria-label="Close viewer">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+
+    <button class="lb__nav lb__nav--prev" id="lbPrev" aria-label="Previous project">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+
+    <div class="lb__stage">
+      <img class="lb__img" id="lbImg" src="" alt="">
+      <div class="lb__info">
+        <h3 class="lb__title" id="lbTitle"></h3>
+        <p class="lb__desc" id="lbDesc"></p>
+        <p class="lb__counter" id="lbCounter" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <button class="lb__nav lb__nav--next" id="lbNext" aria-label="Next project">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+  </div>
 
   <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
   <script src="script.js"></script>
